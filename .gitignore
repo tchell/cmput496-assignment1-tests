@@ -1,0 +1,5 @@
+# open files
+*.swp
+# output files
+*.html
+*.dat
