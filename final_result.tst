@@ -100,3 +100,23 @@ play b a5
 # positive diagonal
 10 gogui-rules_final_result
 #?[black]
+
+clear_board
+play b a1
+play b e5
+play b b2
+play b d4
+play b c3
+# winning move in the middle
+11 gogui-rules_final_result
+#?[black]
+
+clear_board
+play b b1
+play b b2
+play b b3
+play b b4
+play w b5
+# don't count white/erase winner on board clear
+12 gogui-rules_final_result
+#?[unknown]
